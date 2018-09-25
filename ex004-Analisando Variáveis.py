@@ -1,0 +1,6 @@
+n1 = input('numero:')
+print('ele e do tipo:', type)
+print('ele e numerico:', n1.isnumeric())
+print('ele e uma letra:', n1.isalpha())
+print('ele e decimal:', n1.isdecimal())
+print('ele e alfabetico e decimal:', n1.isalnum())

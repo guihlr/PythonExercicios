@@ -26,7 +26,7 @@
 # Divisão
 # frase.split() = divide uma string em uma lista
 # Junção
-# '-'.join(frase) = junção, ex: junta oque foi splitado por "frase.slit()"    
+# '-'.join(frase) = junção, ex: junta oque foi splitado por "frase.split()"
 
 frase = 'Curso em Video Python'
 print(frase)

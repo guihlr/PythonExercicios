@@ -5,11 +5,8 @@
 ''' Meu Programa '''
 
 casa = float(input('Qual é o valor da casa? '))
-# print('O valor da Casa é de {:.2f}'.format(casa))
 salario = float(input('Qual é o seu salário? '))
-# print('O salario do Senhor é de {:.2f}'.format(salario))
 anos = int(input('Em quantos anos o senhor deseja pagar? '))
-# print('Você deseja pagar em {} anos.'.format(anos))
 meses = anos * 12
 salarioMin = (salario * 30) / 100
 pMensal = casa / meses

@@ -2,7 +2,7 @@
 # casa, o salário do comprador e em quantos anos ele vai pagar.
 # Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado
 
-''' Meu Programa '''
+""" Meu Programa """
 
 casa = float(input('Qual é o valor da casa? '))
 salario = float(input('Qual é o seu salário? '))

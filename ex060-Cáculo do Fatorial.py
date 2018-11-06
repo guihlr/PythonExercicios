@@ -6,6 +6,8 @@
 # f = factorial(n)
 # print('O fatorial de {} é {}.'.format(n, f))
 
+""" Estudar Isso """
+
 n = int(input('Digite um número para calcular seu Fatorial: '))
 c = n
 f = 1

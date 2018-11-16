@@ -4,7 +4,7 @@
 
 resp = 'S'
 media = soma = qtd = maior = menor = 0
-while resp in 'Ss':  # enquanto minha resposta estiver em Ss
+while resp in 'Ss':  # enquanto minha resposta estiver em 'Ss'
     num = int(input('Digite um número: '))
     soma += num
     qtd += 1

@@ -9,8 +9,6 @@
 # print('ACABOU')
 
 
-""" Estudar Isso """
-
 print('Gerador de PA')
 print('-=' * 10)
 primeiro = int(input('Primeiro termo: '))

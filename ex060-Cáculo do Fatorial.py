@@ -6,7 +6,6 @@
 # f = factorial(n)
 # print('O fatorial de {} é {}.'.format(n, f))
 
-""" Estudar Isso """
 
 n = int(input('Digite um número para calcular seu Fatorial: '))
 c = n
@@ -28,3 +27,13 @@ for x in range(n, 0, -1):
     print(' x ' if x > 1 else ' = ', end='')
     f *= x
 print('{}'.format(f))
+
+""" Meu Programa """
+
+n = int(input('Digite número para calular seu Fatorial: '))
+f = 1
+c = n
+while c > 0:
+    f *= c
+    c -= 1
+print(f'O fatorial de {n} é {f}')

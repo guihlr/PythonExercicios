@@ -3,6 +3,7 @@
 
 """ Fazer esse sozinho nas férias e estudar """
 
+
 print('Gerador de PA')
 print('-=' * 10)
 primeiro = int(input('Primeiro termo: '))

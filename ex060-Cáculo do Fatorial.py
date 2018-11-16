@@ -28,6 +28,7 @@ for x in range(n, 0, -1):
     f *= x
 print('{}'.format(f))
 
+
 """ Meu Programa """
 
 n = int(input('Digite número para calular seu Fatorial: '))

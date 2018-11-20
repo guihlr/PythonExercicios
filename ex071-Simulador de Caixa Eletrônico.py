@@ -3,12 +3,9 @@
 # entregues.
 # OBS: considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
 
-"""" Fazer sozinho e estudar nas férias! """
+""" Estudar mais para frente """
 
-print('=' * 30)
-print('{:^30}'.format('BANCO CEV'))
-print('=' * 30)
-valor = int(input('Que valor você quer sacar? R$'))
+valor = int(input('Valor a ser sacado: '))
 total = valor
 ced = 50
 totced = 0
@@ -28,5 +25,4 @@ while True:
         totced = 0
         if total == 0:
             break
-print('=' * 30)
-print('Volte sempre ao BANCO CEV! Tenha um bom dia!')
+

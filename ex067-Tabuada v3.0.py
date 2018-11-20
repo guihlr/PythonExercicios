@@ -2,9 +2,12 @@
 # digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo.
 
 while True:
-    n = int(input('Quer ver a tabuada de qual valor? '))
+    n = int(input('Quer ver a tabuada de qual valor ? '))
+    print('-' * 35)
     if n < 0:
         break
-    for cont in range(1, 11):
-        print(f'{n} x {cont} = {n* cont}')
-print('PROGRAMA TABUADA ENCERRADO. Não volte nunca mais por favor!')
+    for c in range(0, 10):
+        c += 1
+        print(f'{n} x {c} = {n * c}')
+    print('-' * 35)
+print('PROGRAMA TABUADA ENCERRADO.')

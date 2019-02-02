@@ -9,7 +9,7 @@ tot = 0
 dados['nome'] = str(input('Nome do jogador: '))
 partidas = int(input(f'Quantas partidas {dados["nome"]} jogou? '))
 for p in range(partidas):
-    gols.append(int(input(f'Quantos gols na partida {p + 1}? ')))
+    gols.append(int(input(f'    Quantos gols na partida {p + 1}? ')))
     dados['gols'] = gols
 for qtd in gols:
     tot += qtd

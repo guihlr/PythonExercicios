@@ -41,7 +41,7 @@ soma(2, 1)"""
 soma(b=4, a=5)  # posso explicitar os números ex: b=4, a=5 ou a=4, b=5
 soma(7, 2)"""
 
-"""def contador(*num):
+"""def contador(*num): # * simobolo de desempacotador
     for valor in num:
         print(f'{valor} ', end=' → ')
     print('FIM')

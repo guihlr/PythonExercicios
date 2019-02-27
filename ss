@@ -1,9 +1,10 @@
 def divisores(n):
     lista = list()
     for i in range(1, n + 1):
-        if n % 1 == 0:
+        if n % i == 0:
             lista.append(i)
     return lista
+
 
 def primo(n):
     div = len(divisores(n))
@@ -11,3 +12,11 @@ def primo(n):
         return True
     return False
 
+
+def perfeito(n):
+    div = divisores(n)
+    soma = 0
+    for i in div:
+        soma += i
+    soma -= n
+    return soma
